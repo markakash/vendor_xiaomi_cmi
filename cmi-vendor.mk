@@ -109,6 +109,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
+    QAS_DVC_MSP \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel
