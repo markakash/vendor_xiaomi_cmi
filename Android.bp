@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2020 Project 404
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -83,6 +83,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "colorservice",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/colorservice/colorservice.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "datastatusnotification",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
@@ -108,7 +119,7 @@ android_app_import {
 	name: "QAS_DVC_MSP",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -150,4 +161,11 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
+	product_specific: true,
 }
