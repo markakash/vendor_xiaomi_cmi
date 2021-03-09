@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_stub.ko \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr.ko \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko \
+    vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/audio_tfa98xx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_tfa98xx.ko \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_tx_macro.ko \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_usf.ko \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_va_macro.ko \
