@@ -139,9 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rdbg.ko \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rmnet_perf.ko \
     vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rmnet_shs.ko \
-    vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/sla.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/sla.ko \
-    vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/cmi/proprietary/product/vendor_overlay/30/lib/modules/sla.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/sla.ko
 
 PRODUCT_PACKAGES += \
     libqct_resampler \
