@@ -1331,6 +1331,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     CneApp \
     IWlanService \
+    SoterService \
     TimeService \
     com.qualcomm.qti.gpudrivers.kona.api30 \
     PowerOffAlarm \
